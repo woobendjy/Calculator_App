@@ -10,7 +10,20 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:orientation="horizontal"
-        android:background="@color/dark_slate_gray"></LinearLayout>
+        android:background="@color/dark_slate_gray">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|center_horizontal|left|center_vertical"
+            android:layout_weight="1"
+            android:text="Calculatrice"
+            android:textColor="#EDE6E6"
+            android:textColorLink="#FAF5F5"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
     <ImageView
         android:id="@+id/imageView"
