@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    //voici la méthode qui est exécutée lorsqu'on clique sur un bouton chiffre
+
     public void chiffreClick(String str) {
         if(update){
             update = false;
@@ -152,7 +152,6 @@ public class MainActivity extends AppCompatActivity {
         }
         ecran.setText(str);
     }
-    //voici la méthode qui est exécutée lorsqu'on clique sur le bouton +
     public void plusClick(){
         if(clicOperateur){
             calcul();
@@ -164,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
         operateur = "+";
         update = true;
     }
-    //voici la méthode qui est exécutée lorsqu'on clique sur le bouton -
+
     public void moinsClick(){
         if(clicOperateur){
             calcul();
@@ -187,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
         operateur = "*";
         update = true;
     }
-    //voici la méthode qui est exécutée lorsqu'on clique sur le bouton /
+
     public void divClick(){
         if(clicOperateur){
             calcul();
@@ -199,13 +198,13 @@ public class MainActivity extends AppCompatActivity {
         operateur = "/";
         update = true;
     }
-    //voici la méthode qui est exécutée lorsqu'on clique sur le bouton =
+
     public void egalClick(){
         calcul();
         update = true;
         clicOperateur = false;
     }
-    //voici la méthode qui est exécutée lorsque l'on clique sur le bouton C
+
     public void resetClick(){
         clicOperateur = false;
         update = true;
@@ -213,7 +212,7 @@ public class MainActivity extends AppCompatActivity {
         operateur = "";
         ecran.setText("");
     }
-    //Voici la méthode qui fait le calcul qui a été demandé par l'utilisateur
+
     private void calcul(){
         if(operateur.equals("+")){
             chiffre1 = chiffre1 +
