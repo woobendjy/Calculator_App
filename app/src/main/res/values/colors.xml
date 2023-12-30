@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="oil_black">#0C0C0C</color>
+    <color name="dark_slate_gray">#0D1717</color>
+    <color name="obsidian">#0B1215</color>
+    <color name="midnight_blue">#101720</color>
+    <color name="charcoal_black">#171717</color>
+    <color name="gray">#bdbdbd</color>
 </resources>
