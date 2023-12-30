@@ -9,4 +9,6 @@
     <color name="charcoal_black">#171717</color>
     <color name="gray">#bdbdbd</color>
     <color name="green">#46a65c</color>
+    <color name="dark_orange">#FF8C00</color>
+    <color name="indigo">#89C4F4</color>
 </resources>

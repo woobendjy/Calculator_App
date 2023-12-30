@@ -61,7 +61,8 @@
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="+" />
+            android:text="+"
+            android:background="@color/indigo" />
     </LinearLayout>
 
     <LinearLayout
@@ -97,7 +98,8 @@
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="-" />
+            android:text="-"
+            android:background="@color/indigo"/>
     </LinearLayout>
 
     <LinearLayout
@@ -133,7 +135,8 @@
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="*" />
+            android:text="*"
+            android:background="@color/indigo"/>
     </LinearLayout>
 
     <LinearLayout
@@ -162,14 +165,16 @@
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="C" />
+            android:text="C"
+            android:background="@color/dark_orange"/>
 
         <Button
             android:id="@+id/buttonDivision"
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="/" />
+            android:text="/"
+            android:background="@color/indigo" />
     </LinearLayout>
 
     <Button
@@ -179,5 +184,6 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:text="="
-        android:background="@color/green"/>
+        android:background="@color/green"
+        android:layout_marginTop="5dp"/>
 </LinearLayout>
