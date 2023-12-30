@@ -12,6 +12,12 @@
     <color name="dark_orange">#FF8C00</color>
     <color name="indigo">#89C4F4</color>
     <color name="red">#FF0000</color>
+    <color name="redburguny">#8D021F</color>
     <color name="yellow">#FFFF00</color>
+    <color name="grayanchor">#3E424B</color>
     <color name="purple">#EE82EE</color>
+    <color name="blue">#0000FF</color>
+    <color name="Nightblue">#151B54</color>
+    <color name="Deepseablue">#123456</color>
+
 </resources>
